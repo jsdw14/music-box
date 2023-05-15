@@ -15,6 +15,6 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (light_val > 150) {
-        music.playSoundEffect(music.builtinSoundEffect(soundExpression.hello), SoundExpressionPlayMode.UntilDone)
+        music.playSoundEffect(music.builtinSoundEffect(soundExpression.hello), SoundExpressionPlayMode.InBackground)
     }
 })
